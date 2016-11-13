@@ -63,15 +63,7 @@ function highlight(){
   });
 }
 
-// 动态加载多说评论框的函数
-function toggleDuoshuoComments(container, id){
-    var el = document.createElement('div');
-    var url = window.location.href;
-    el.setAttribute('data-thread-key', id);
-    el.setAttribute('data-url', url);
-    DUOSHUO.EmbedThread(el);
-    jQuery(container).append(el);
-}
+
 
 function detail(id){
     if(!window._G){
