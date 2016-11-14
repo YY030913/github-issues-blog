@@ -50,7 +50,7 @@ function index(page){
               window._G.post[data[i].number] = {};
               window._G.post[data[i].number].body = ractive.toHTML();
               
-              var title = data[i].title + " | " + _config['blog_name'];
+              var title = data[i].title + " * " + _config['blog_name'];
               window._G.post[data[i].number].title = title;
             }
         }
@@ -92,7 +92,7 @@ function detail(id){
                  data: {post: data}
             });
 
-            $('title').html(data.title + " | " + _config['blog_name']);
+            $('title').html(data.title + " * " + _config['blog_name']);
             highlight();
         }
     });  
