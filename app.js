@@ -83,7 +83,7 @@ function detail(id){
             // access_token:_config['access_token']
         },
         beforeSend:function(){
-          $('#container').html('<center><img src="loading.gif" alt="loading" class="loading"></center>');
+          $('#container').html('<center><p class="loading">LOADING</p></center>');
         },
         success:function(data){
             var ractive = new Ractive({
