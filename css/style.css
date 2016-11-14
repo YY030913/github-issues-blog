@@ -3,7 +3,6 @@ body{
 }
 .blog_title{
   font-size: 26px;
-  color: #333;
   text-decoration: none;
 }
 .blog_title:hover{
