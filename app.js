@@ -17,7 +17,7 @@ function index(page){
             per_page     : _config['per_page']
         },
         beforeSend:function(){
-          $('#container').html('<center><img src="loading.gif" class="loading"></center>');
+          $('#container').html('<center><p class="loading">LOADING</p></center>');
         },
         success:function(data, textStatus, jqXHR){
             var link = jqXHR.getResponseHeader("Link") || "";
