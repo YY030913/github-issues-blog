@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'determination_monoregular';
+    src: url('dtm-mono-webfont.eot');
+    src: url('dtm-mono-webfont.eot?#iefix') format('embedded-opentype'),
+         url('dtm-mono-webfont.woff2') format('woff2'),
+         url('dtm-mono-webfont.woff') format('woff'),
+         url('dtm-mono-webfont.ttf') format('truetype'),
+         url('dtm-mono-webfont.svg#determination_monoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
   font-family: 'determination_monoregular', arial, sans-serif;
   font-size: 14px;
@@ -304,12 +315,4 @@ sup {
 	pre {
 		word-wrap: break-word;
 	}
-}
-@font-face {
-    font-family: 'determination_monoregular';
-    src: url('f/dtm-mono-webfont.woff2') format('woff2'),
-         url('f/dtm-mono-webfont.woff') format('woff'),
-    font-weight: normal;
-    font-style: normal;
-
 }
