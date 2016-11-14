@@ -1,5 +1,5 @@
 @font-face{font-family:determination_monoregular;src:url(f/dtm-mono-webfont.eot);src:url(f/dtm-mono-webfont.eot?#iefix) format('embedded-opentype'),url(f/dtm-mono-webfont.woff2) format('woff2'),url(f/dtm-mono-webfont.woff) format('woff'),url(f/dtm-mono-webfont.ttf) format('truetype'),url(f/dtm-mono-webfont.svg#determination_monoregular) format('svg');font-weight:400;font-style:normal}
-body{font-family:determination_monoregular;font-size:14px;line-height:1.6;padding-top:10px;padding-bottom:10px;background-color:#000;padding:30px;color:#fff}
+body{font-family:determination_monoregular;font-size:24px;line-height:1.6;padding-top:10px;padding-bottom:10px;background-color:#000;padding:30px;color:#fff}
 body>:first-child{margin-top:0!important}
 body>:last-child{margin-bottom:0!important}
 a{color:#4183C4;text-decoration:none}
@@ -14,12 +14,12 @@ h3 code,h3 tt{font-size:inherit}
 h4 code,h4 tt{font-size:inherit}
 h5 code,h5 tt{font-size:inherit}
 h6 code,h6 tt{font-size:inherit}
-h1{font-size:22px}
-h2{font-size:16px;line-height:30px}
-h3{font-size:18px}
-h4{font-size:16px}
-h5{font-size:14px}
-h6{color:#777;font-size:14px}
+h1{font-size:32px}
+h2{font-size:26px;line-height:30px}
+h3{font-size:28px}
+h4{font-size:26px}
+h5{font-size:24px}
+h6{color:#777;font-size:24px}
 blockquote,dl,li,ol,p,pre,table,ul{margin:15px 0}
 hr{border:0 none;color:#ccc;height:4px;padding:0}
 body>h2:first-child{margin-top:0;padding-top:0}

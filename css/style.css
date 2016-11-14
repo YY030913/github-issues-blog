@@ -7,7 +7,7 @@ h2{background-color:#eee;padding-left:8px;margin-left:-8px;border-radius:2px}
 .loading{border:none;box-shadow:none;width:32px;height:32px;margin:70px auto}
 .prev{float:left}
 .next{float:right}
-@media only screen and (min-width:600px){#container{border:1px solid #ccc;padding:30px 60px 40px 60px}
+@media only screen and (min-width:600px){#container{border:4px solid #fff;padding:30px 60px 40px 60px}
 }
 #header{margin-bottom:20px}
 .postlist{margin:20px 0;list-style:none}
