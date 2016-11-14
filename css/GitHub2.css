@@ -4,7 +4,7 @@ body {
   line-height: 1.6;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: white;
+  background-color: black;
   padding: 30px;
   color: white;
 }
@@ -64,14 +64,12 @@ h6 tt, h6 code {
   font-size: inherit; }
 
 h1 {
-  font-size: 22px;
-  color: black; }
+  font-size: 22px; }
 
 h2 {
   font-size: 16px;
   line-height:30px;
-  /*border-bottom: 1px solid #cccccc;*/
-  color: #333; }
+  /*border-bottom: 1px solid #cccccc;*/ }
 
 h3 {
   font-size: 18px; }
@@ -309,7 +307,8 @@ sup {
 }
 @font-face {
     font-family: 'determination_monoregular';
-    src: url('f/dtm-mono-webfont.svg#determination_monoregular') format('svg');
+    src: url('f/dtm-mono-webfont.woff2') format('woff2'),
+         url('f/dtm-mono-webfont.woff') format('woff'),
     font-weight: normal;
     font-style: normal;
 
