@@ -114,3 +114,5 @@ var routes = {
 };
 var router = Router(routes);
 router.init('/');
+
+$('.reward').innerHTML='<button id="rewardButton" disable="enable" onclick="var e=$(&quot;#QR&quot;);e.style.display=&quot;none&quot;===e.style.display?&quot;block&quot;:&quot;none&quot;"><span>打赏</span></button><div id="QR" style="display:none"><div id="wechat" style="display:inline-block"><img id="wechat_qr" src="//ww4.sinaimg.cn/large/a15b4afegw1f9m26qy4gej205k05kgm2" alt="WeChat"><p>微信打赏</p></div><div id="alipay" style="display:inline-block"><img id="alipay_qr" src="//ww4.sinaimg.cn/large/a15b4afegw1f9m26rblkrj205k05kjrc" alt="Alipay"><p>支付宝打赏</p></div></div>';
